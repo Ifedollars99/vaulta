@@ -1,0 +1,15 @@
+export const NIGERIAN_BANKS = [
+  'Vaulta Microfinance Bank',
+  'GTBank',
+  'Access Bank',
+  'First Bank',
+  'UBA',
+  'Zenith Bank',
+  'Fidelity Bank',
+  'Stanbic IBTC',
+  'Sterling Bank',
+  'Wema Bank',
+  'Opay',
+  'Palmpay',
+  'Moniepoint',
+]

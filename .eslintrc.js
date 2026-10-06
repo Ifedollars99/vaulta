@@ -18,6 +18,11 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    // Add any other custom rules you may have
+    // Vaulta style: allow several attributes per line and compact single-line
+    // elements — they keep financial templates scannable. Real problems
+    // (unused vars, bad props) still come from the recommended sets above.
+    'vue/max-attributes-per-line': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/html-self-closing': 'off',
   }
 };
